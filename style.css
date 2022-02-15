@@ -1,0 +1,119 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-image: url("../assets/img/bg.png");
+}
+#maquette {
+  display: flex;  
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  margin: 5px 20%;
+}
+/* nav */
+header nav div {
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;  
+  height: 100px;  
+}
+
+header .menu {
+  width: 140px;
+  font-size: 18px;
+}
+
+:hover.menu {
+  background-color: #662F32;
+  color: white;
+}
+/* titre page */
+
+header span {
+  color: #662F32;
+}
+
+#main_title {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  font-size: 8vh;
+  text-align: center;
+  padding-top: 50px;
+}
+/* slider */
+
+#slider_section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.slider img {
+  display: flex;
+  width: 100%;
+}
+/* section cards */
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  height: 500px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;  
+  background: url("../assets/img/bg.png");
+  width: 33%;
+  position: relative;
+  margin: 15px;
+  
+}
+
+.card_title {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  background-color: #662F32;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+  
+}
+
+.card_image img {
+  display: flex;
+  position: absolute;
+  top: 55px;
+  width: 100%;
+}
+
+.card_text {
+  position: absolute;
+  top: 27vh;
+  color: white;
+  text-align: justify;
+  padding: 4px;
+}
+
+.card_plus {
+  position: absolute;
+  background-image: url("../assets/img/plus_btn.png");
+  bottom: 0px;
+  right: 0;
+  height: 64px;
+  width: 64px;
+}
+
+:hover.card_plus {
+  position: absolute;
+  background-image: url("../assets/img/plus_btn_h.png");
+}
+
+/* section texte */
+
